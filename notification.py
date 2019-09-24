@@ -21,9 +21,7 @@ class Notification:
         print(group_title)
         print("Send Notification!")
 
-        npm = "Dezha Polpos"
-        message = "Anda"
-    # def sendNotification(self, npm, message):
+    def sendNotification(self, npm, message):
         #search chat
         chat = self.driver.find_elements_by_tag_name("span")[12]
         search_chat = chat.get_attribute("data-icon")
@@ -51,4 +49,4 @@ class Notification:
         
 
 notif = Notification()
-# notif.sendNotification("Dezha Polpos", "Anda")
+notif.sendNotification("Dezha Polpos", "Anda Belum Bimbingan")
