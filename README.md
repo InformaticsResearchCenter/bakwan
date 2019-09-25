@@ -8,16 +8,16 @@ to using this library by phone number
 import bakwan
 
 tempe = bakwan.Bakwan()
-tempe.sendMessageWithAPI("6282217401448", "Hayo bimbingan")
+tempe.sendNumber("6282217401448", "Hayo bimbingan")
 ```
 
 to use contact name 
 
 ```python
-import balabala
+import bakwan
 
-kerupuk = balabala.BalaBala()
-kerupuk.sendMessageWithoutAPI("1184011", "ayo dong bimbingan biar cepet")
+tempe = bakwan.Bakwan()
+tempe.sendContact("1184011", "ayo dong bimbingan biar cepet")
 ```
 
 

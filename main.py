@@ -1,8 +1,5 @@
 import bakwan
-import balabala
 
-kerupuk = balabala.BalaBala()
-kerupuk.sendMessageWithoutAPI("1184011", "ayo dong bimbingan biar cepet")
-
-# tempe = bakwan.Bakwan()
-# tempe.sendMessageWithAPI("6282217401448", "Hayo bimbingan")
+tempe = bakwan.Bakwan()
+tempe.sendNumber("6282319141340", "Hayo bimbingan ditunggu pak rolly")
+tempe.sendContact("Dezha Polpos", "Pak rolly nyuruh ke irc sekarang")
